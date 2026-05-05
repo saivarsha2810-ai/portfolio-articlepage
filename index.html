@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1">
+        <div class="pg1">
+            <h1 class="head">Empower yourself</h1>
+            <p class="para">By learning new courses from worlds leading experts</p>
+            <div class="btm">
+                <div class="pt d-flex flex-row">
+                    <div class="sub d-flex flex-column justify-content-center" onclick="display('section2')">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-icon-img.png" class="img">
+                        </div>
+                        <p class="para2">Technology</p>
+                    </div>
+                    <div class="sub d-flex flex-column justify-content-center" onclick="display('section3')">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-science-icon-img.png" class="img">
+                        </div>
+                        <p class="para2">Science</p>
+                    </div>
+                </div>
+                <div class="pt d-flex flex-row">
+                    <div class="sub d-flex flex-column justify-content-center" onclick="display('section4')">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-icon-img.png" class="img">
+                        </div>
+                        <p class="para2">Health Care</p>
+                    </div>
+                    <div class="sub d-flex flex-column justify-content-center" onclick="display('section5')">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-business-icon-img.png" class="img">
+                        </div>
+                        <p class="para2">Business</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="pg">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h1 class="head2">List of Topics</h1>
+            <ul class="uls">
+                <li class="lis">Artificial Intelligence </li>
+                <li class="lis">Data Science </li>
+                <li class="lis">Machine Learning </li>
+                <li class="lis">Internet Of Things </li>
+                <li class="lis">Blockchain</li>
+                <li class="lis">Virtual Reality </li>
+                <li class="lis">Robotic Process Automation (RPA)</li>
+            </ul>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="btn d-flex flex-column justify-content-center" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section3">
+        <div class="pg">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-science-c1-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-science-c2-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-science-c3-img.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h1 class="head2">List of Topics</h1>
+            <ul class="uls">
+                <li class="lis">Biology </li>
+                <li class="lis">Zoology </li>
+                <li class="lis">Cardiology </li>
+                <li class="lis">Chemistry </li>
+                <li class="lis">Bio Chemistry</li>
+                <li class="lis">Nano Science </li>
+                <li class="lis">Astronomy</li>
+            </ul>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="btn d-flex flex-column justify-content-center" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section4">
+        <div class="pg">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-c1-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-c2-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-c3-img.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h1 class="head2">List of Topics</h1>
+            <ul class="uls">
+                <li class="lis">Infrastructure Management</li>
+                <li class="lis">Latest in Health Care</li>
+                <li class="lis">Pharmaceuticals</li>
+                <li class="lis">COVID-19</li>
+            </ul>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="btn d-flex flex-column justify-content-center" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section5">
+        <div class="pg">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-business-c1-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-business-c2-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://assets.ccbp.in/frontend/static-website/articles-business-c3-img.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h1 class="head2">List of Topics</h1>
+            <ul class="uls">
+                <li class="lis">Business Models</li>
+                <li class="lis">21st Century Business Skills</li>
+                <li class="lis">Traditional Business Approaches</li>
+                <li class="lis">How to go from 0 to 1? The startup 101</li>
+            </ul>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="btn d-flex flex-column justify-content-center" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
